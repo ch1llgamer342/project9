@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding-top: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.ul{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 210px;
+}
+
+.ul li a{
+    font-family: Quantico;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;    
+}
+
+.smallhead{
+    width: 241px;
+    height: 30px;
+    background-color: #404864;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    border-radius: 5px;
+    margin-right: 38px;
+}
+
+.header select{
+    width: 165px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.first{
+    background-image: url(./img/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+}
+
+.second{
+    background-color: #000000;
+    padding-top: 45px;
+    padding-bottom: 59px;
+}
+
+.second h2{
+    font-family: Quantico;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-bottom: 5px;    
+}
+
+.smallsecond{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.third{
+     background-color: rgba(27, 30, 39, 1);
+     padding-top: 61px;
+     padding-bottom: 129px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    padding-left: 226px;
+}
+
+.smallthird h3{
+    font-family: Quantico;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallone{
+    display: flex;
+}
+
+.smallone img{
+    margin-right: 17px;
+}
+
+.smallone p{
+    font-family: Quantico;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;    
+    color: rgba(191, 191, 191, 1);    
+}
+
+footer{
+    background-color: rgba(39, 44, 61, 1);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
